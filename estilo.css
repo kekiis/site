@@ -1,0 +1,186 @@
+*{
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	vertical-align: baseline;
+}
+
+body{
+	text-align: center;
+	font-family: sans-serif;
+}
+
+.header{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.head{
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	height: 63px;
+	background: #171717;
+	position: fixed;
+	width: 100%;
+	z-index: 100;
+}
+
+.barra_superior{
+	display: flex;
+	margin-right: 10px;
+}
+
+.barra_superior a{
+	display: block;
+	padding: 23px 20px;
+	color: #fff;
+	text-decoration: none;
+	text-transform: uppercase;
+	font-size: 20px;
+}
+
+.barra_superior a:hover{
+	background: #3f3f3f;
+}
+
+.Logo{
+	margin-left: 30px;
+}
+
+.Logo a{
+	text-decoration: none;
+	color: #fff;
+	text-transform: uppercase;
+	font-size: 20px;
+}
+
+.header{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.header{
+	height: 80vh !important;
+	background-image: url(fondo.jpg);
+	background-size: cover;
+	background-attachment: fixed;
+}
+
+.title{
+	margin-bottom: 40px;
+	font-size: 60px;
+	font-weight: 600;
+	text-transform: uppercase;
+	color: #fff;
+}
+
+p{
+	margin-bottom: 40px;
+	font-size: 18px;
+	color: #fff;
+}
+
+.btn{
+	display: inline-block;
+	margin-top: 15px;
+	padding: 10px 40px;
+	border: 2px solid #9c27b0;
+	color: #fff;
+	text-decoration: none;
+	background: #9c27b0;
+}
+
+.btn:hover{
+	background: none;
+}
+
+.btn-home{
+	display: flex;
+}
+
+.btn-home a{
+	margin: 0 10px;
+}
+
+.content{
+	height: 80vh;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+
+.sau{
+	padding: 30px;
+	background: #1f1d1d;
+}
+
+.Contenedor{
+	display: flex;
+	justify-content: center;
+	flex-wrap: wrap;
+	text-align: center;
+}
+
+.Contenedor .box{
+	height: 11rem;
+	width: 17rem;
+	background: #101010;
+	text-align: center;
+	border-radius: 1rem;
+	box-shadow:  0 .3rem 5rem rgba(0,0,0,.5);
+	margin: 2rem;
+}
+
+.Contenedor .box i{
+	height: 3rem;
+	width: 3rem;
+	line-height: 3rem;
+	text-align: center;
+	border-radius: 50%;
+	color: #fff;
+	font-size: 2rem;
+	margin: 1rem 0;
+}
+
+.Contenedor .box h3{
+	font-size: 20px;
+	color: #9c27b0;
+}
+
+.Contenedor .box {
+	padding: 0 15px;
+	font-size: 16px;
+}
+
+.about{
+	height: 80vh !important;
+	background-image: url(fondo2.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-attachment: fixed;
+}
+
+.contact{
+	padding-bottom: 100px;
+	background: #1f1d1d;
+}
+
+@media (max-width: 768px){
+	.title{
+		margin-bottom: 0;
+		font-size: 40px;
+	}
+
+	.sau{
+		height: 120vh;
+	}
+
+	.barra_superior{
+		display: none;
+	}
+}
